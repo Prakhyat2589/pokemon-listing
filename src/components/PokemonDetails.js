@@ -106,9 +106,10 @@ const PokemonDetails = ({ dataList }) => {
       rowsPerPage={rowsPerPage}
       color="primary"
       page={page}
+      labelRowsPerPage="Cards per page"
       SelectProps={{
         inputProps: {
-          "aria-label": "rows per page",
+          "aria-label": "cards per page",
         },
         native: true,
       }}
