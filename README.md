@@ -20,16 +20,16 @@ Below is screenshot of site when loaded for first time.\
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-Unit testing is done using Jest and Enzyme.\
-Test Cases are written only for App.js, getresponse.js, pokemonDetails.js.\
-Above test cases are basic and important testing for data fetching and presenting data on site.\
-Rest of the files are ignored for test and code coverage.\
+1) Unit testing is done using Jest and Enzyme.\
+2) Test Cases are written only for App.js, getresponse.js, pokemonDetails.js.\
+3) Above test cases are basic and important testing for data fetching and presenting data on site.\
+4) Rest of the files are ignored for test and code coverage.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm coverage`
 Launches the coverage and generate the coverage report.\
-The coverage threshold for a website is considered 90% which ensures the unit testing is done for majority piece of code in website.\
-Coverage report can be checked in coverage folder which is created after running above command
+1) The coverage threshold for a website is considered 90% which ensures the unit testing is done for majority piece of code in website.\
+2) Coverage report can be checked in coverage folder which is created after running above command
 
 ### `npm run build`
 
