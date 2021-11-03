@@ -38,20 +38,21 @@ const PokemonDetails = ({ dataList }) => {
     }
   };
 
+  /* istanbul ignore next */
   const handleChange = (e) => {
     setSearch(e.target.value);
     setSessionStorage("searchItem", e.target.value);
   };
-
+  /* istanbul ignore next */
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
   };
-
+  /* istanbul ignore next */
   const handleChangeRowsPerPage = (event) => {
     setRowsPerPage(parseInt(event.target.value, 10));
     setPage(0);
   };
-
+  /* istanbul ignore next */
   const handleSortByName = () => {
     if (sortStatus === "asc") {
       pokemonData.sort((a, b) => {
@@ -67,6 +68,7 @@ const PokemonDetails = ({ dataList }) => {
     setSessionStorage("pokemonData", pokemonData);
   };
 
+  /* istanbul ignore next */
   const handleSortByHeight = () => {
     if (sortStatus === "asc") {
       pokemonData.sort((a, b) => {
@@ -81,7 +83,7 @@ const PokemonDetails = ({ dataList }) => {
     }
     setSessionStorage("pokemonData", pokemonData);
   };
-
+  /* istanbul ignore next */
   const handleSortByWeight = () => {
     if (sortStatus === "asc") {
       pokemonData.sort((a, b) => {

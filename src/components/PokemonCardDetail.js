@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 import React from "react";
 import { getSessionStorage } from "../helper/sessionStorageHelper";
 import { useHistory } from "react-router-dom";

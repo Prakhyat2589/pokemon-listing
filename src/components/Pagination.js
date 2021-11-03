@@ -7,7 +7,7 @@ import FirstPageIcon from "@mui/icons-material/FirstPage";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import LastPageIcon from "@mui/icons-material/LastPage";
-
+/* istanbul ignore next */
 const Pagination = (props) => {
   const theme = useTheme();
   const { count, page, rowsPerPage, onPageChange } = props;
