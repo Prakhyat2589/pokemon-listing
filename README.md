@@ -11,8 +11,11 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Below is screenshot of site when loaded for first time.\
+![image](https://user-images.githubusercontent.com/43100105/140079989-50678184-36c4-4a9a-ae5f-a2d33557650f.png)
+
+
+
 
 ### `npm test`
 
@@ -22,6 +25,11 @@ Test Cases are written only for App.js, getresponse.js, pokemonDetails.js.\
 Above test cases are basic and important testing for data fetching and presenting data on site.\
 Rest of the files are ignored for test and code coverage.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm coverage`
+Launches the coverage and generate the coverage report.\
+The coverage threshold for a website is considered 90% which ensures the unit testing is done for majority piece of code in website.\
+Coverage report can be checked in coverage folder which is created after running above command
 
 ### `npm run build`
 
